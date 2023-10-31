@@ -1,0 +1,92 @@
+.voteContainer {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: white !important;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.userCard {
+    color: #999;
+    width: 30%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s;
+
+    .userCardBody {
+        display: flex;
+        flex-direction: row;
+
+        .userCardItem {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+    
+            strong {
+                color: #333;
+                font-weight: bold;
+            }
+
+            img {
+                border-radius: 50%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                width: 120px;
+                height: 120px;
+                margin-left: 40px;
+            }
+
+            &:nth-child(2) {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        &:nth-child(2) {
+            margin-top: 20px;
+        }
+    }
+
+    .userCardFooter {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        
+        button {
+            color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: 0;
+            width: 100px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        button:nth-child(1) {
+            background-color: #0C356A;
+        }
+
+        button:nth-child(2) {
+            background-color:#0174BE;
+        }
+    }
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+}

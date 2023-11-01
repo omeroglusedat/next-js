@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"json-server --watch db.json --port 5305\" \"next dev\"",
+    "dev": "concurrently \"json-server --watch db.json --routes routes.json --port 5305\" \"next dev\"",
     "build": "next build",
-    "start": "concurrently \"json-server --watch db.json --port 5305\" \"next start\"",
+    "start": "concurrently \"json-server --watch db.json --routes routes.json --port 5305\" \"next start\"",
     "lint": "next lint"
   },
   "dependencies": {

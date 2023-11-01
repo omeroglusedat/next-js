@@ -24,7 +24,7 @@ export const generalSlice = createSlice({
             })
             console.log('134', updatedUser.filter((f) => f.id === action.payload?.id)[0])
             if (updatedUser.length > 0)
-                fetch(`http://127.0.0.1:5305/users/${action.payload?.id}`, {
+                fetch(`http://localhost:5305/users/${action.payload?.id}`, {
                     headers: {
                         "Content-Type": "application/json",
                     },

@@ -24,7 +24,7 @@ export const generalSlice = createSlice({
             })
             console.log('134', updatedUser.filter((f) => f.id === action.payload?.id)[0])
             if (updatedUser.length > 0)
-                fetch(`https://next-js-lovat-one.vercel.app/api/users/${action.payload?.id}`, {
+                fetch(`https://next-js-lovat-one.vercel.app:5305/api/users/${action.payload?.id}`, {
                     headers: {
                         "Content-Type": "application/json",
                     },

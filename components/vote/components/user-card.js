@@ -6,6 +6,7 @@ import { voteUp } from '@/redux/general-slice';
 const UserCard = ({ item }) => {
     const dispatch = useDispatch();
     const [detail, setDetail] = useState(false);
+    
 
 
     const handleDetail = () => {

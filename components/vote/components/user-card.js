@@ -40,7 +40,6 @@ const UserCard = ({ item }) => {
         </div>}
 
         <div className={styles.userCardFooter}>
-            {/* <button onClick={handleDetail}>Detail</button> */}
             <button onClick={(e) => {
                 e.stopPropagation();
                 dispatch(voteUp(item))

@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/:path*",
+        "destination": "http://localhost:5305/:path*"
+      },
+      {
+        "source": "/:path*",
+        "destination": "http://localhost:3000/:path*"
+      }
+    ]
+  }

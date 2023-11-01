@@ -9,3 +9,5 @@ yarn dev
 pnpm dev
 # or
 bun dev
+# or 
+npm run build && npm run start

@@ -7,7 +7,7 @@ import { setData } from '@/redux/general-slice';
 
 // styles
 import styles from '../../app/index.module.scss'
-import UserCard from './components/user-card';
+import WorkerCard from './components/worker-card';
 
 
 const Vote = ({ data }) => {
@@ -31,7 +31,7 @@ const Vote = ({ data }) => {
     return <div className={styles.voteContainer} style={{ backgroundColor: 'red' }}>
         {lastData && lastData.length > 0 && lastData
             .map((item, index) => {
-                return <UserCard key={`user-${index}`} item={item} />
+                return <WorkerCard key={`user-${index}`} item={item} />
             })}
     </div>
 }

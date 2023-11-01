@@ -1,21 +1,13 @@
 import variables from './variables.module.scss'
 import styles from './index.module.scss'
 import Vote from '@/components/vote/vote';
+import service from '@/service/service';
 
 
 export const dynamic = 'force-dynamic';
-export async function getData() {
-  const response = await fetch(`https://next-js-lovat-one.vercel.app:5305/api/users`, {
-    headers: {
-      "Content-Type": "application/json",
-    },
-  })
-  const data = await response.json();
-  return data;
-}
 
 export default async function Home() {
-  const _data = await getData();
+  const _data = await service.getUsers();
   return (
     <main style={{ color: variables.primaryColor, height: '100vh' }}>
       <div className={styles.voteContainer}>

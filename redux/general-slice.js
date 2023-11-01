@@ -1,3 +1,4 @@
+import service from '@/service/service';
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
@@ -22,15 +23,10 @@ export const generalSlice = createSlice({
                 }
                 return item;
             })
-            console.log('134', updatedUser.filter((f) => f.id === action.payload?.id)[0])
-            if (updatedUser.length > 0)
-                fetch(`https://next-js-lovat-one.vercel.app:5305/api/users/${action.payload?.id}`, {
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    method: 'PUT',
-                    body: JSON.stringify(updatedUser.filter((f) => f.id === action.payload?.id)[0])
-                });
+            if (updatedUser.length > 0) {
+                const userObject = updatedUser.filter((f) => f.id === action.payload?.id)[0]
+                service.userUpdate(userObject);
+            }
             state.users = updatedUser;
         },
     },

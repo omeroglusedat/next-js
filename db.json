@@ -18,12 +18,13 @@
       },
       "phone": "1-770-736-8031 x56442",
       "website": "hildegard.org",
+      "title": "Software Developer",
       "company": {
-        "name": "Romaguera-Crona",
+        "name": "X Company",
         "catchPhrase": "Multi-layered client-server neural-net",
         "bs": "harness real-time e-markets"
       },
-      "vote": 1
+      "vote": 0
     },
     {
       "id": 2,
@@ -43,8 +44,9 @@
       },
       "phone": "010-692-6593 x09125",
       "website": "anastasia.net",
+      "title": "Software Developer",
       "company": {
-        "name": "Deckow-Crist",
+        "name": "X Companyt",
         "catchPhrase": "Proactive didactic contingency",
         "bs": "synergize scalable supply-chains"
       },
@@ -68,8 +70,9 @@
       },
       "phone": "1-463-123-4447",
       "website": "ramiro.info",
+      "title": "Software Developer",
       "company": {
-        "name": "Romaguera-Jacobson",
+        "name": "X Company",
         "catchPhrase": "Face to face bifurcated interface",
         "bs": "e-enable strategic applications"
       },
@@ -93,8 +96,9 @@
       },
       "phone": "493-170-9623 x156",
       "website": "kale.biz",
+      "title": "Software Developer",
       "company": {
-        "name": "Robel-Corkery",
+        "name": "X Company",
         "catchPhrase": "Multi-tiered zero tolerance productivity",
         "bs": "transition cutting-edge web services"
       },
@@ -118,12 +122,13 @@
       },
       "phone": "(254)954-1289",
       "website": "demarco.info",
+      "title": "Software Developer",
       "company": {
-        "name": "Keebler LLC",
+        "name": "X Company",
         "catchPhrase": "User-centric fault-tolerant solution",
         "bs": "revolutionize end-to-end systems"
       },
-      "vote": 4
+      "vote": 0
     },
     {
       "id": 6,
@@ -143,8 +148,9 @@
       },
       "phone": "1-477-935-8478 x6430",
       "website": "ola.org",
+      "title": "Software Developer",
       "company": {
-        "name": "Considine-Lockman",
+        "name": "X Company",
         "catchPhrase": "Synchronised bottom-line interface",
         "bs": "e-enable innovative applications"
       },
@@ -168,8 +174,9 @@
       },
       "phone": "210.067.6132",
       "website": "elvis.io",
+      "title": "Software Developer",
       "company": {
-        "name": "Johns Group",
+        "name": "X Company",
         "catchPhrase": "Configurable multimedia task-force",
         "bs": "generate enterprise e-tailers"
       },
@@ -193,12 +200,13 @@
       },
       "phone": "586.493.6943 x140",
       "website": "jacynthe.com",
+      "title": "Software Developer",
       "company": {
-        "name": "Abernathy Group",
+        "name": "X Company",
         "catchPhrase": "Implemented secondary concept",
         "bs": "e-enable extensible e-tailers"
       },
-      "vote": 2
+      "vote": 0
     },
     {
       "id": 9,
@@ -218,8 +226,9 @@
       },
       "phone": "(775)976-6794 x41206",
       "website": "conrad.com",
+      "title": "Software Developer",
       "company": {
-        "name": "Yost and Sons",
+        "name": "X Company",
         "catchPhrase": "Switchable contextually-based project",
         "bs": "aggregate real-time technologies"
       },
@@ -243,12 +252,15 @@
       },
       "phone": "024-648-3804",
       "website": "ambrose.net",
+      "title": "Software Developer",
       "company": {
-        "name": "Hoeger LLC",
+        "name": "X Company",
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       },
       "vote": 0
     }
+  ],
+  "logs": [
   ]
 }

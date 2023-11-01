@@ -2,11 +2,11 @@
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "http://localhost:5305/api/$1"
+        "dest": "http://127.0.0.1:5305/api/$1"
       },
       {
         "src": "/(.*)",
-        "dest": "http://localhost:3000/$1"
+        "dest": "http://127.0.0.1:3000/$1"
       }
     ],
     "rewrites": []

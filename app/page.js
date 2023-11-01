@@ -14,7 +14,6 @@ export async function getData() {
   return data;
 }
 
-
 export default async function Home() {
   const _data = await getData();
   return (

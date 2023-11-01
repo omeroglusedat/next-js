@@ -7,7 +7,7 @@
         },
       {
         "src": "/(.*)",
-        "dest": "http://localhost:3000/:1"
+        "dest": "http://localhost:3000/$1"
       }
     ]
   }

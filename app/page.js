@@ -5,7 +5,7 @@ import Vote from '@/components/vote/vote';
 
 export const dynamic = 'force-dynamic';
 export async function getData() {
-  const response = await fetch('http://localhost:5305/users', {
+  const response = await fetch('http://127.0.0.1:5305/users', {
     headers: {
       "Content-Type": "application/json",
     },

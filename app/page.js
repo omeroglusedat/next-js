@@ -5,7 +5,7 @@ import Vote from '@/components/vote/vote';
 
 export const dynamic = 'force-dynamic';
 export async function getData() {
-  const response = await fetch(`https://next-js-lovat-one.vercel.app:5305/api/users`, {
+  const response = await fetch(`http://localhost:5305/api/users`, {
     headers: {
       "Content-Type": "application/json",
     },

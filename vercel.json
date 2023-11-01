@@ -2,11 +2,11 @@
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "https://next-js-lovat-one.vercel.app:5305/api/$1"
+        "dest": "http://127.0.0.1:5305/api/$1"
       },
       {
         "src": "/(.*)",
-        "dest": "https://next-js-lovat-one.vercel.app:3000/$1"
+        "dest": "http://127.0.0.1:3000/$1"
       }
     ]
   }

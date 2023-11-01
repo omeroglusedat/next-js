@@ -1,12 +1,15 @@
 {
-    "rewrites": [
+    "routes": [
       {
-        "source": "/:path*",
-        "destination": "http://localhost:5305/:path*"
+        "handle": "filesystem"
       },
       {
-        "source": "/:path*",
-        "destination": "http://localhost:3000/:path*"
+        "src": "/.*",
+        "dest": "http://localhost:5305"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "http://localhost:3000"
       }
     ]
   }

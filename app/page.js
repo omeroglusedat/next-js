@@ -12,6 +12,7 @@ export async function getData() {
   })
   const data = await response.json();
   return data;
+  
 }
 
 
